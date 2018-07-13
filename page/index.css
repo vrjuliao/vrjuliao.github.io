@@ -17,24 +17,6 @@
 }
 
 @font-face {
-	font-family: 'bebaskai';
-	src: local('bebaskai.ttf'), url('fonts/bebaskai.eot');
-	src: url('fonts/bebaskai.eot') format('embedded-opentype'),
-		url('fonts/bebaskai.otf') format('openType');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'liberationsans';
-	src: local('LiberationSans-Regular.ttf') url('fonts/liberationsans.eot');
-	src: url('fonts/liberationsans.eot') format('embedded-opentype'),
-		url('fonts/liberationsans.ttf') format('openType');
-	font-weight: normal;
-	font-style: normal;
-}
-
-@font-face {
 	font-family: 'sansation';
 	src: url('fonts/Sansation_Regular.eot');
 	src: url('fonts/Sansation_Regular.eot') format('embedded-opentype'),
@@ -108,9 +90,8 @@ table{
 	margin-top: 14px;
 }
 
-.profile_contact .description{
-	line-height: 15px;
-	margin: 2px;
+.profile_contact>.row>.description{
+	line-height: 24px;
 	vertical-align: middle;
 	display: inline-block;
 
@@ -119,8 +100,10 @@ table{
 	color: #F9F9F9;
 }
 
-.profile_contact .icon {
+.profile_contact>.row>.icon {
 	vertical-align: middle;
+	width: 24px;
+	height: 24px;
 }
 /*end of head*/
 
@@ -277,7 +260,7 @@ table{
 
 /*footer*/
 .footer{
-	background-color: #37CCEB;
+	background-color: #585858;
 	color: white;
 	font-family: sansation, sans-serif;
 	font-size: 10px;
