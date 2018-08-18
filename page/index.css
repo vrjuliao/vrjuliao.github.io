@@ -29,6 +29,12 @@ p{
 	margin: 0;
 }
 
+a{
+	background-color: transparent;
+	text-decoration: none;
+	color:white;
+}
+
 table{
 	border-collapse: collapse;
 }
@@ -143,10 +149,22 @@ table{
 	font-size: 18px;
 }
 
-
 .level_image {
 	width: 18px;
 	height: 18px;
+}
+
+#rate.box_level{
+	background-color: #37CCEB;
+	text-align: center;
+	padding: 8px;
+	margin: 0 24px 8px 24px;
+	cursor: pointer;
+}
+#rate.box_level>.level_image{
+	vertical-align: middle;
+	height: 30px;
+	width: 30px;
 }
 /*end of side bar*/
 
