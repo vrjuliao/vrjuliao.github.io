@@ -1,0 +1,82 @@
+.modal_header {
+	background-color: #585858;
+	line-height: 48px;
+	margin: -10px -10px 8px -10px;
+	font-size: 36px;
+	text-align: center;
+}
+
+.page_modal{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 10;
+	opacity: 1;
+	visibility: visible;
+	-webkit-transition: all 0.5s 0.5s ease-in-out;
+	transition: all 0.5s 0.5s ease-in-out;
+}
+
+.modal_content {
+	padding: 10px;
+	max-width: 600px;
+	min-width: 300px;
+	max-height: 85%;
+	overflow: hidden;
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	z-index: 2;
+	opacity: 1;
+	border-radius: 8px;
+	background: #fff;
+	-webkit-transform: translate(-50%, 0);
+	-ms-transform: translate(-50%, 0);
+	transform: translate(-50%, 0);
+	-webkit-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+	text-align: center;
+}
+
+.background{
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: black;
+	opacity: 0.5; 
+}
+
+.star{
+	cursor: pointer;
+}
+
+#firebaseui-auth-container {
+	opacity: 0.5;
+	pointer-events: none;
+}
+
+.close_modal{
+	float: right;
+	font-family: sans-serif;
+	background-color: #37CCEB;
+	line-height: 30px;
+	width: 30px;
+	font-size: 24px;
+	margin: 9px 9px 9px -9px;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.thanks{
+	color: #37CCEB;
+	font-size: 60px;
+	display: none;
+}
+
+#smile{
+	font-family: sans-serif;
+}
