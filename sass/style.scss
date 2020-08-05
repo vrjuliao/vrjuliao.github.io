@@ -1224,6 +1224,7 @@ h1, h2, h3, h4, h5, h6, figure {
 	position: relative;
 	float: left;
 	width: 100%;
+	padding: 0.6em 0;
 	.fh5co-heading {
 		margin-bottom: 0;
 		h2 {
@@ -1232,6 +1233,12 @@ h1, h2, h3, h4, h5, h6, figure {
 		}
 		p{
 			color: rgba($brand-white,.8);
+			margin-bottom: 2px;
+			font-size: 12px;
+		}
+		a{
+			color: rgba($brand-white,.8) !important;
+			text-decoration: underline;
 		}
 	}
 
