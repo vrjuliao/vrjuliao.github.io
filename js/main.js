@@ -158,7 +158,7 @@
 
 	var navigationSection = function() {
 
-		var $section = $('div[data-section]');
+		var $section = $('[data-section]');
 		
 		$section.waypoint(function(direction) {
 		  	

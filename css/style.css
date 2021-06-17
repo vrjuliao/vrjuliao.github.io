@@ -517,7 +517,7 @@ h1, h2, h3, h4, h5, h6, figure {
   vertical-align: middle;
   height: 300px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   #fh5co-header .display-tc,
 .fh5co-cover .display-tc {
     display: table-row;
@@ -770,6 +770,14 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 
+#fh5co-about {
+  padding-top: 0px;
+}
+@media screen and (max-width: 992px) and (min-width: 768px) {
+  #fh5co-about {
+    padding-top: 6.5em;
+  }
+}
 #fh5co-about .fh5co-social-icons {
   margin: 0;
   padding: 0;
@@ -959,11 +967,6 @@ h1, h2, h3, h4, h5, h6, figure {
     margin-left: -10px !important;
   }
 }
-@media screen and (max-width: 992px) {
-  .timeline > li > .timeline-badge {
-    margin-left: -10px !important;
-  }
-}
 .timeline > li > .timeline-badge i {
   display: table-cell;
   vertical-align: middle;
@@ -973,7 +976,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .timeline > li.timeline-unverted {
   text-align: right;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .timeline > li.timeline-unverted {
     text-align: left;
     margin-bottom: 2em;
@@ -1039,7 +1042,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
   ul.timeline > li > .timeline-badge {
     left: 15px;
-    margin-left: 0;
+    margin-left: 54px;
     top: 16px;
   }
 
@@ -1720,6 +1723,15 @@ input[type=text] {
 
 .js .animate-box {
   opacity: 0;
+}
+
+.mb-54-md {
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 992px) {
+  .mb-54-md {
+    margin-bottom: 54px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -580,7 +580,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		display: table-cell;
 		vertical-align: middle;
 		height: 300px;
-		@media screen and (max-width: $screen-sm){
+		@media screen and (max-width: $screen-md){
 			display: table-row;
 			max-height: 300px;
 			margin-bottom: 10px;
@@ -814,6 +814,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-about{
+	padding-top: 0px;
+	@media screen and (max-width: $screen-md) and (min-width: $screen-sm) {
+		padding-top: 6.5em;
+	}
 	.fh5co-social-icons {
 		margin: 0;
 		padding: 0;
@@ -978,9 +982,9 @@ h1, h2, h3, h4, h5, h6, figure {
 			@media screen and (max-width: $screen-sm) {
 				margin-left: -10px !important;
 			}
-			@media screen and (max-width: $screen-md) {
-				margin-left: -10px !important;
-			}
+			// @media screen and (max-width: $screen-xs) and (min-width: $screen-sm) {
+			// 	margin-left: 54px !important;
+			// }
 			i{
 				display: table-cell;
 				vertical-align: middle;
@@ -990,7 +994,7 @@ h1, h2, h3, h4, h5, h6, figure {
 		}
 		&.timeline-unverted{
 			text-align: right;
-			@media screen and (max-width: $screen-sm) {
+			@media screen and (max-width: $screen-md) {
 				text-align: left;
 				margin-bottom: 2em;
 			}
@@ -1055,7 +1059,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 	ul.timeline > li > .timeline-badge {
 	  left: 15px;
-	  margin-left: 0;
+	  margin-left: 54px;
 	  top: 16px;
 	}
 
@@ -1694,5 +1698,12 @@ input[type="text"] {
 .animate-box {
 	.js & {
 		opacity: 0;
+	}
+}
+
+.mb-54-md {
+	margin-bottom: 0px;
+	@media screen and (min-width: $screen-md) {
+		margin-bottom: 54px;
 	}
 }
